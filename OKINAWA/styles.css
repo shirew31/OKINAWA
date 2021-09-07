@@ -1,0 +1,144 @@
+
+  body{
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  }
+
+
+  .h1{
+    letter-spacing: 5px;
+    font-weight: lighter;
+  }
+
+  .h6{
+    font-weight: lighter;
+  }
+
+  .header-nav a{
+    font-weight: lighter;
+  }
+
+  .col img{
+    border-radius: 20px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5)
+  }
+
+  #top-nav a{
+    position: relative;
+  }
+
+
+  #top-nav a::after{
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(250, 250, 250);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+  }
+
+  #top-nav a:hover::after{
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #first-button a{
+    transition: .4s;
+    color: rgb(36, 35, 35);
+  }
+
+  #first-button a:hover{
+    background-color: rgb(36, 35, 35);
+    color:#fff;
+    font-weight: normal;
+    transition: .4s;
+  }
+
+  #books .col:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: .3s;
+  }
+
+  #second-button a{
+    transition: .4s;
+    color: rgb(36, 35, 35);
+  }
+
+  #second-button a:hover{
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+    transition: .4s;
+  }
+
+  #news{
+    transition: .3s;
+  }
+
+  #news:hover{
+    opacity: 0.5;
+    transition: .3s;
+    cursor: pointer;
+  }
+
+  #sns #top{
+    transition: all .5s;
+  }
+
+  #sns #top:hover{
+    transform: translateY(-5px);
+  }
+
+  #sns #top i{
+    font-size: 50px;
+  }
+
+  #sns #Facebook{
+    color:#4871a9 ;
+    transition: .4s;
+  }
+
+  #sns #Facebook:hover{
+    background-color: #4871a9;
+    color: #fff;
+    transition: .4s;
+  }
+
+
+  #sns #Twitter{
+    color:#70BDD3 ;
+    transition: .4s;
+  }
+
+  #sns #Twitter:hover{
+    background-color: #70BDD3;
+    color: #fff;
+    transition: .4s;
+  }
+
+
+  #sns #Bookmark{
+    color:#3B9BCD ;
+    transition: .4s;
+  }
+
+  #sns #Bookmark:hover{
+    background-color: #3B9BCD;
+    color: #fff;
+    transition: .4s;
+  }
+
+  #footer-nav a{
+    color: #fff;
+    transition: .4s;
+  }
+
+  #footer-nav a:hover{
+    color: #b9b5b5;
+    transition: .4s;
+  }
+
